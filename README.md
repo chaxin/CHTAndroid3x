@@ -1,7 +1,5 @@
 # 茶汇通3.x版安卓客户端
+茶汇通以互联网优越强势的整合力，旨在打造「垂直整合生态」茶产业系统。围绕产业链进行深化和系统性运作，并最终贯通源头种植、生产加工流通、报价、销售、服务及衍生产品的整个茶产品链的自有闭环运作。官网：[http://www.chahuitong.com]()
 
-基于MVP模式封闭了部分框架。定义了一套开发规范。并提供了基于这套规范的Activity，Fragment，Presenter等父类及控件和API等，完成APP开发过程中大量繁琐工作。
-主要包含3部分：
-ui — Presenter与View层的双向注入。管理了Activity与Presenter的引用关系。让Presenter来控制Activity的显示。
-expansion — 包含了对ui层的一系列拓展功能。并提供了数据展示及数据列表展示的开发模版。
-model — 数据层，在APP启动时初始化所有model，并提供一个处理数据用的后台Looper线程
+## 架构
+封装了部分基于MVP模式的架构。定义了一套开发规范。并提供了基于这套规范的Activity，Fragment，Presenter等父类及控件和API等，完成APP开发过程中大量繁琐工作。参考了朱大的[Beam](https://github.com/Jude95/Beam)。目前想要根据自己的思想，并结合github上一些优秀的架构慢慢设计完美出自己的一套开发框架。目前这只是个雏形。
